@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#762f35" />
+    <meta
+      name="description"
+      content="A Pousada do Trabalhador oferece hospedagem simples, prática e acolhedora em Canoas/RS, com Wi-Fi, estacionamento e diferentes acomodações."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://pousadadotrabalhador.com/" />
+
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pousada do Trabalhador | Hospedagem em Canoas/RS" />
+    <meta
+      property="og:description"
+      content="Hospedagem simples, prática e acolhedora em Canoas."
+    />
+    <meta property="og:url" content="https://pousadadotrabalhador.com/" />
+
+    <title>Pousada do Trabalhador | Hospedagem em Canoas/RS</title>
+    <link rel="icon" href="assets/logos/transparent-gear.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LodgingBusiness",
+        "name": "Pousada do Trabalhador",
+        "legalName": "Pousada do Trabalhador Canoas LTDA",
+        "url": "https://pousadadotrabalhador.com/",
+        "telephone": "+555123917366",
+        "email": "contato@pousadadotrabalhador.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Getúlio Vargas, 6291",
+          "addressLocality": "Canoas",
+          "addressRegion": "RS",
+          "addressCountry": "BR"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <span class="topbar__place"><i data-lucide="map-pin" aria-hidden="true"></i> Canoas, Rio Grande do Sul</span>
+      </div>
+    </div>
+
+    <header class="site-header" data-header>
+      <div class="container site-header__inner">
+        <a class="brand brand--header" href="#inicio" aria-label="Pousada do Trabalhador — início">
+          <img class="brand__logo" src="assets/logos/transparent-gear.png" alt="" width="58" height="58" />
+          <span class="brand__name">Pousada <strong>do Trabalhador</strong></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+          <span class="sr-only">Abrir menu</span>
+          <i class="menu-toggle__icon menu-toggle__icon--menu" data-lucide="menu" aria-hidden="true"></i>
+          <i class="menu-toggle__icon menu-toggle__icon--close" data-lucide="x" aria-hidden="true"></i>
+        </button>
+
+        <nav class="main-nav" id="menu-principal" aria-label="Navegação principal">
+          <a href="#inicio">Início</a>
+          <a href="#pousada">A pousada</a>
+          <a href="#acomodacoes">Acomodações</a>
+          <a href="#comodidades">Comodidades</a>
+          <a href="#localizacao">Localização</a>
+          <a href="#contato">Contato</a>
+          <a class="button button--small button--dark nav-cta" href="#contato" data-contact-trigger aria-haspopup="dialog">
+            <i data-lucide="messages-square" aria-hidden="true"></i> Entrar em contato
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <dialog class="contact-modal" id="contact-modal" aria-labelledby="contact-modal-title">
+      <div class="contact-modal__content">
+        <button class="contact-modal__close" type="button" data-contact-close aria-label="Fechar opções de contato">
+          <i data-lucide="x" aria-hidden="true"></i>
+        </button>
+        <div data-contact-main>
+          <p class="eyebrow"><span></span> Fale com a gente</p>
+          <h2 id="contact-modal-title">Como você deseja ser atendido?</h2>
+          <div class="contact-modal__options">
+            <a class="contact-option" data-contact-action="phone" href="tel:+555123917366">
+              <i data-lucide="phone" aria-hidden="true"></i>
+              <span><strong>Por Telefone</strong><small class="contact-option__unavailable" hidden>Indisponível para reservas sob faturamento.</small></span>
+              <i class="contact-option__arrow" data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <a class="contact-option" data-contact-action="whatsapp" href="https://wa.me/555123917366" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="message-circle" aria-hidden="true"></i>
+              <span><strong>Por WhatsApp</strong><small class="contact-option__unavailable" hidden>Indisponível para reservas sob faturamento.</small></span>
+              <i class="contact-option__arrow" data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <a class="contact-option" data-contact-action="email" href="mailto:contato@pousadadotrabalhador.com">
+              <i data-lucide="mail" aria-hidden="true"></i>
+              <span><strong>Por E-mail</strong></span>
+              <i class="contact-option__arrow" data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <a class="contact-option" data-contact-action="visit" href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Get%C3%BAlio+Vargas%2C+6291%2C+Canoas%2C+RS" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="map-pin" aria-hidden="true"></i>
+              <span><strong>Pessoalmente</strong><small class="contact-option__unavailable" hidden>Indisponível para reservas sob faturamento.</small></span>
+              <i class="contact-option__arrow" data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-modal__phone-card" data-phone-view aria-live="polite" tabindex="-1" hidden>
+          <p class="contact-modal__phone-intro">Pelo seu celular, ligue para o número a seguir.</p>
+          <a class="contact-modal__phone-number" href="tel:+555123917366">+55 51 2391-7366</a>
+        </div>
+      </div>
+    </dialog>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="container hero__grid">
+          <div class="hero__copy reveal">
+            <p class="eyebrow"><span></span> Pousada em Canoas/RS</p>
+            <h1 id="hero-title">Hospedagem simples e prática em Canoas.</h1>
+            <p class="hero__lead">
+              Uma opção funcional e acolhedora para quem precisa ficar em Canoas, com atendimento próximo,
+              boa localização e o essencial para uma estadia tranquila.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#contato" data-contact-trigger aria-haspopup="dialog">
+                <i data-lucide="phone" aria-hidden="true"></i> Ligar agora
+              </a>
+              <a class="text-link" href="#pousada">Conhecer a pousada <i data-lucide="arrow-down-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="hero__details" aria-label="Informações rápidas">
+              <div>
+                <i data-lucide="clock-3" aria-hidden="true"></i>
+                <span><strong>Recepção 24h</strong><small>Para mais tranquilidade</small></span>
+              </div>
+              <div>
+                <i data-lucide="car-front" aria-hidden="true"></i>
+                <span><strong>Estacionamento</strong><small>Gratuito para hóspedes</small></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal reveal--delay" aria-label="Fotografia da fachada da pousada">
+            <div class="hero__shape hero__shape--one" aria-hidden="true"></div>
+            <div class="hero__shape hero__shape--two" aria-hidden="true"></div>
+            <div class="photo-placeholder photo-placeholder--hero" data-photo="assets/fotos/frente.png">
+              <img class="real-photo" src="assets/fotos/frente.png" alt="Fachada da Pousada do Trabalhador em Canoas" width="1672" height="941" fetchpriority="high" />
+              <div class="placeholder-art placeholder-art--facade" aria-hidden="true">
+                <span class="placeholder-art__roof"></span>
+                <span class="placeholder-art__building"></span>
+                <span class="placeholder-art__door"></span>
+                <span class="placeholder-art__window placeholder-art__window--one"></span>
+                <span class="placeholder-art__window placeholder-art__window--two"></span>
+              </div>
+              <div class="photo-placeholder__label">
+                <i data-lucide="image" aria-hidden="true"></i>
+                <span>Foto da fachada</span>
+                <small>adicione a imagem real em /assets</small>
+              </div>
+            </div>
+            <div class="hero__address">
+              <i data-lucide="map-pin" aria-hidden="true"></i>
+              <span><small>Estamos aqui</small><strong>Av. Getúlio Vargas, 6291<br />Canoas/RS</strong></span>
+            </div>
+            <div class="hero__stamp" aria-hidden="true"><span>desde</span><strong>canoas</strong><span>RS</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Principais facilidades">
+        <div class="container trust-strip__grid">
+          <div class="trust-item reveal"><i data-lucide="wifi" aria-hidden="true"></i><span><strong>Wi-Fi gratuito</strong><small>Conectividade para sua rotina</small></span></div>
+          <div class="trust-item reveal"><i data-lucide="map-pin-house" aria-hidden="true"></i><span><strong>Em Canoas</strong><small>Av. Getúlio Vargas</small></span></div>
+          <div class="trust-item reveal"><i data-lucide="bed-double" aria-hidden="true"></i><span><strong>Quartos funcionais</strong><small>Opções para diferentes grupos</small></span></div>
+          <div class="trust-item reveal"><i data-lucide="heart-handshake" aria-hidden="true"></i><span><strong>Atendimento próximo</strong><small>Uma estadia sem complicação</small></span></div>
+        </div>
+      </section>
+
+      <section class="section about" id="pousada" aria-labelledby="about-title">
+        <div class="container about__grid">
+          <div class="about__visual reveal">
+            <div class="photo-placeholder photo-placeholder--about" data-photo="assets/fotos/patio.png" aria-label="Fotografia do pátio da pousada">
+              <img class="real-photo" src="assets/fotos/patio.png" alt="Pátio interno da Pousada do Trabalhador" width="1882" height="836" loading="lazy" />
+              <div class="placeholder-art placeholder-art--garden" aria-hidden="true">
+                <span class="placeholder-art__sun"></span>
+                <span class="placeholder-art__hill"></span>
+                <span class="placeholder-art__plant placeholder-art__plant--one"></span>
+                <span class="placeholder-art__plant placeholder-art__plant--two"></span>
+              </div>
+              <div class="photo-placeholder__label">
+                <i data-lucide="image" aria-hidden="true"></i>
+                <span>Foto da área externa</span>
+                <small>adicione a imagem real em /assets</small>
+              </div>
+            </div>
+            <div class="about__note"><i data-lucide="quote" aria-hidden="true"></i><span>O essencial para ficar bem em Canoas.</span></div>
+          </div>
+          <div class="about__copy reveal reveal--delay">
+            <p class="eyebrow"><span></span> A pousada</p>
+            <h2 id="about-title">Praticidade para a sua rotina, acolhimento para a sua estadia.</h2>
+            <p>
+              A Pousada do Trabalhador é uma pousada tradicional de Canoas/RS. Uma escolha para quem procura
+              uma hospedagem direta, com estrutura funcional e uma localização conveniente para viver a cidade.
+            </p>
+            <p>
+              Seja por uma noite ou por uma permanência mais longa, você encontra ambientes simples, serviços
+              importantes no dia a dia e diferentes configurações de quarto para viajar sozinho, em dupla ou em grupo.
+            </p>
+            <div class="about__facts">
+              <div><i data-lucide="check" aria-hidden="true"></i><span>Recepção disponível 24 horas</span></div>
+              <div><i data-lucide="check" aria-hidden="true"></i><span>Estacionamento gratuito</span></div>
+              <div><i data-lucide="check" aria-hidden="true"></i><span>Wi-Fi gratuito</span></div>
+              <div><i data-lucide="check" aria-hidden="true"></i><span>Localização em Canoas</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section differentiators" aria-labelledby="differentiators-title">
+        <div class="container">
+          <div class="section-heading section-heading--light reveal">
+            <div><p class="eyebrow eyebrow--light"><span></span> Por que escolher</p><h2 id="differentiators-title">Uma hospedagem que entende o que você precisa.</h2></div>
+            <p>Com o essencial bem resolvido, sua estadia fica mais leve — seja a trabalho, de passagem ou em viagem com a família.</p>
+          </div>
+          <div class="differentiators__grid">
+            <article class="difference-card reveal"><span class="difference-card__number">01</span><i data-lucide="hand-heart" aria-hidden="true"></i><h3>Atendimento próximo</h3><p>Uma equipe disponível para auxiliar durante a sua estadia.</p></article>
+            <article class="difference-card reveal"><span class="difference-card__number">02</span><i data-lucide="route" aria-hidden="true"></i><h3>Localização conveniente</h3><p>Endereço em uma das principais avenidas de Canoas.</p></article>
+            <article class="difference-card reveal"><span class="difference-card__number">03</span><i data-lucide="briefcase-business" aria-hidden="true"></i><h3>Estrutura funcional</h3><p>Comodidades que ajudam a manter a rotina durante a viagem.</p></article>
+            <article class="difference-card reveal"><span class="difference-card__number">04</span><i data-lucide="users-round" aria-hidden="true"></i><h3>Para diferentes grupos</h3><p>Configurações de quarto para hóspedes individuais ou grupos.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section amenities" id="comodidades" aria-labelledby="amenities-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow"><span></span> Comodidades</p><h2 id="amenities-title">O que você encontra por aqui.</h2></div>
+            <p>Facilidades para deixar a sua hospedagem mais simples, do primeiro contato ao último dia.</p>
+          </div>
+          <div class="amenities__grid">
+            <div class="amenity reveal"><span class="amenity__icon"><i data-lucide="wifi" aria-hidden="true"></i></span><strong>Wi-Fi gratuito</strong><small>Para trabalhar, descansar e se conectar.</small></div>
+            <div class="amenity reveal"><span class="amenity__icon"><i data-lucide="parking-square" aria-hidden="true"></i></span><strong>Estacionamento gratuito</strong><small>Mais praticidade para quem vem de carro.</small></div>
+            <div class="amenity reveal"><span class="amenity__icon"><i data-lucide="clock-3" aria-hidden="true"></i></span><strong>Recepção 24 horas</strong><small>Atendimento em diferentes horários.</small></div>
+            <div class="amenity reveal"><span class="amenity__icon"><i data-lucide="shirt" aria-hidden="true"></i></span><strong>Lavanderia</strong><small>Uma ajuda para estadias mais longas.</small></div>
+            <div class="amenity reveal"><span class="amenity__icon"><i data-lucide="utensils" aria-hidden="true"></i></span><strong>Restaurante</strong><small>Mais uma facilidade durante a estadia.</small></div>
+            <div class="amenity reveal"><span class="amenity__icon"><i data-lucide="bath" aria-hidden="true"></i></span><strong>Banheiro privativo</strong><small>Nas acomodações anunciadas.</small></div>
+            <div class="amenity reveal"><span class="amenity__icon"><i data-lucide="sparkles" aria-hidden="true"></i></span><strong>Serviço de arrumação</strong><small>Cuidado com o ambiente da sua hospedagem.</small></div>
+            <div class="amenity reveal"><span class="amenity__icon"><i data-lucide="sofa" aria-hidden="true"></i></span><strong>Áreas compartilhadas</strong><small>Sala de estar, TV e itens de apoio.</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section rooms" id="acomodacoes" aria-labelledby="rooms-title">
+        <div class="container">
+          <div class="section-heading rooms__heading reveal">
+            <div><p class="eyebrow"><span></span> Acomodações</p><h2 id="rooms-title">Um quarto para cada jeito de viajar.</h2></div>
+            <p>Conheça algumas das configurações anunciadas. Para confirmar disponibilidade e detalhes da sua hospedagem, fale diretamente com a pousada.</p>
+          </div>
+          <div class="rooms__grid">
+            <div class="rooms__row rooms__row--two">
+            <article class="room-card reveal">
+              <div class="room-card__image photo-placeholder" data-photo="assets/quartos/individual/individual.png" aria-label="Fotografia do quarto individual">
+                <img class="real-photo" src="assets/quartos/individual/individual.png" alt="Quarto individual da Pousada do Trabalhador" width="1440" height="1080" loading="lazy" />
+                <div class="placeholder-art placeholder-art--room" aria-hidden="true"><span class="placeholder-art__bed"></span><span class="placeholder-art__headboard"></span><span class="placeholder-art__lamp"></span></div>
+                <span class="room-card__image-label"><i data-lucide="image" aria-hidden="true"></i> Foto do quarto individual</span>
+              </div>
+              <div class="room-card__content"><div class="room-card__top"><span>1 hóspede</span></div><h3>Quarto Individual</h3><ul><li><i data-lucide="bed-single" aria-hidden="true"></i> 1 cama de solteiro</li><li><i data-lucide="bath" aria-hidden="true"></i> Banheiro privativo</li></ul><a class="text-link text-link--small" href="#contato" data-contact-trigger aria-haspopup="dialog">Consultar disponibilidade <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+            </article>
+            <article class="room-card reveal">
+              <div class="room-card__image photo-placeholder" data-photo="assets/quartos/duplo-individual/casal.png" aria-label="Fotografia do quarto duplo individual">
+                <img class="real-photo" src="assets/quartos/duplo-individual/casal.png" alt="Quarto duplo individual da Pousada do Trabalhador" width="1448" height="1086" loading="lazy" />
+                <div class="placeholder-art placeholder-art--room" aria-hidden="true"><span class="placeholder-art__bed"></span><span class="placeholder-art__headboard"></span><span class="placeholder-art__lamp"></span></div>
+                <span class="room-card__image-label"><i data-lucide="image" aria-hidden="true"></i> Foto do quarto duplo individual</span>
+              </div>
+              <div class="room-card__content"><div class="room-card__top"><span>Para 2 pessoas</span></div><h3>Quarto Duplo Individual</h3><ul><li><i data-lucide="bed-double" aria-hidden="true"></i> 1 cama de casal</li><li><i data-lucide="bath" aria-hidden="true"></i> Banheiro privativo</li></ul><a class="text-link text-link--small" href="#contato" data-contact-trigger aria-haspopup="dialog">Consultar disponibilidade <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+            </article>
+            </div>
+            <div class="rooms__row rooms__row--three">
+            <article class="room-card reveal reveal--delay">
+              <div class="room-card__image photo-placeholder" data-photo="assets/quartos/duplo-economico/duplo.png" aria-label="Fotografia do quarto duplo econômico">
+                <img class="real-photo" src="assets/quartos/duplo-economico/duplo.png" alt="Quarto duplo econômico da Pousada do Trabalhador" width="1440" height="1080" loading="lazy" />
+                <div class="placeholder-art placeholder-art--room placeholder-art--room-alt" aria-hidden="true"><span class="placeholder-art__bed placeholder-art__bed--one"></span><span class="placeholder-art__bed placeholder-art__bed--two"></span><span class="placeholder-art__headboard"></span><span class="placeholder-art__lamp"></span></div>
+                <span class="room-card__image-label"><i data-lucide="image" aria-hidden="true"></i> Foto do quarto duplo econômico</span>
+              </div>
+              <div class="room-card__content"><div class="room-card__top"><span>Para 2 pessoas</span></div><h3>Quarto Duplo Econômico</h3><ul><li><i data-lucide="bed-single" aria-hidden="true"></i> 2 camas de solteiro</li><li><i data-lucide="bath" aria-hidden="true"></i> Banheiro privativo</li></ul><a class="text-link text-link--small" href="#contato" data-contact-trigger aria-haspopup="dialog">Consultar disponibilidade <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+            </article>
+            <article class="room-card reveal reveal--delay-2">
+              <div class="room-card__image photo-placeholder" data-photo="assets/quartos/triplo-economico/triplo.png" aria-label="Fotografia do quarto triplo econômico">
+                <img class="real-photo" src="assets/quartos/triplo-economico/triplo.png" alt="Quarto triplo econômico da Pousada do Trabalhador" width="1440" height="1080" loading="lazy" />
+                <div class="placeholder-art placeholder-art--room placeholder-art--room-warm" aria-hidden="true"><span class="placeholder-art__bed placeholder-art__bed--one"></span><span class="placeholder-art__bed placeholder-art__bed--two"></span><span class="placeholder-art__headboard"></span><span class="placeholder-art__lamp"></span></div>
+                <span class="room-card__image-label"><i data-lucide="image" aria-hidden="true"></i> Foto do quarto triplo econômico</span>
+              </div>
+              <div class="room-card__content"><div class="room-card__top"><span>Para 3 pessoas</span></div><h3>Quarto Triplo Econômico</h3><ul><li><i data-lucide="bed-single" aria-hidden="true"></i> 3 camas de solteiro</li><li><i data-lucide="bath" aria-hidden="true"></i> Banheiro privativo</li></ul><a class="text-link text-link--small" href="#contato" data-contact-trigger aria-haspopup="dialog">Consultar disponibilidade <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+            </article>
+            <article class="room-card reveal">
+              <div class="room-card__image photo-placeholder" data-photo="assets/quartos/quaduplo-economico/quaduplo.png" aria-label="Fotografia do quarto quáduplo econômico">
+                <img class="real-photo" src="assets/quartos/quaduplo-economico/quaduplo.png" alt="Quarto quáduplo econômico da Pousada do Trabalhador" width="1440" height="1080" loading="lazy" />
+                <div class="placeholder-art placeholder-art--room placeholder-art--room-alt" aria-hidden="true"><span class="placeholder-art__bed"></span><span class="placeholder-art__headboard"></span><span class="placeholder-art__lamp"></span></div>
+                <span class="room-card__image-label"><i data-lucide="image" aria-hidden="true"></i> Foto do quarto quáduplo econômico</span>
+              </div>
+              <div class="room-card__content"><div class="room-card__top"><span>Para 4 pessoas</span></div><h3>Quarto Quáduplo Econômico</h3><ul><li><i data-lucide="bed-single" aria-hidden="true"></i> 4 camas de solteiro</li><li><i data-lucide="bath" aria-hidden="true"></i> Banheiro privativo</li></ul><a class="text-link text-link--small" href="#contato" data-contact-trigger aria-haspopup="dialog">Consultar disponibilidade <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+            </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="business-booking" aria-labelledby="business-booking-title">
+        <div class="container">
+          <div class="business-booking__inner reveal">
+            <div class="business-booking__icon" aria-hidden="true"><i data-lucide="file-text"></i></div>
+            <div class="business-booking__copy">
+              <p class="eyebrow"><span></span> Para empresas</p>
+              <h2 id="business-booking-title">Reservas sob faturamento para empresas.</h2>
+              <p>Realizamos reservas sob faturamento para empresas. Para mais informações, entre em contato com a pousada.</p>
+            </div>
+            <a class="button button--outline business-booking__button" href="#contato" data-contact-trigger data-contact-context="billing" aria-haspopup="dialog"><i data-lucide="messages-square" aria-hidden="true"></i> Entrar em contato</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section location" id="localizacao" aria-labelledby="location-title">
+        <div class="container location__grid">
+          <div class="location__copy reveal">
+            <p class="eyebrow"><span></span> Localização</p>
+            <h2 id="location-title">Bem localizada em Canoas.</h2>
+            <p>
+              Estamos na Av. Getúlio Vargas, com acesso facilitado a comércio, transporte e pontos importantes da cidade.
+              Consulte a pousada para planejar a melhor forma de chegar.
+            </p>
+            <address class="address-card"><i data-lucide="map-pin" aria-hidden="true"></i><span><small>Endereço</small><strong>Av. Getúlio Vargas, 6291<br />Canoas/RS</strong></span></address>
+            <a class="button button--outline" href="https://www.google.com/maps/search/?api=1&query=Av.+Get%C3%BAlio+Vargas%2C+6291%2C+Canoas%2C+RS" target="_blank" rel="noopener noreferrer"><i data-lucide="navigation" aria-hidden="true"></i> Ver como chegar</a>
+          </div>
+          <div class="map-card reveal reveal--delay">
+            <iframe
+              title="Mapa com a localização da Pousada do Trabalhador em Canoas"
+              src="https://www.google.com/maps?q=Av.+Get%C3%BAlio+Vargas%2C+6291%2C+Canoas%2C+RS&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="map-card__caption"><i data-lucide="map" aria-hidden="true"></i><span><strong>Pousada do Trabalhador</strong><small>Av. Getúlio Vargas, 6291 — Canoas/RS</small></span></div>
+          </div>
+        </div>
+        <div class="container nearby-points reveal">
+          <div class="nearby-points__intro">
+            <p class="eyebrow"><span></span> Na região</p>
+            <h3>Pontos conhecidos de Canoas.</h3>
+            <p>Alguns lugares de referência para conhecer, fazer compras ou se orientar pela cidade.</p>
+          </div>
+          <div class="nearby-points__grid">
+            <a class="nearby-point" href="https://www.google.com/maps/search/?api=1&query=Bourbon+Shopping+Canoas%2C+Av.+Get%C3%BAlio+Vargas%2C+5765%2C+Canoas%2C+RS" target="_blank" rel="noopener noreferrer"><i data-lucide="shopping-bag" aria-hidden="true"></i><span><strong>Bourbon Shopping Canoas</strong><small>Av. Getúlio Vargas, 5765</small></span><i class="nearby-point__arrow" data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+            <a class="nearby-point" href="https://www.google.com/maps/search/?api=1&query=ParkShopping+Canoas%2C+Av.+Farroupilha%2C+4545%2C+Canoas%2C+RS" target="_blank" rel="noopener noreferrer"><i data-lucide="store" aria-hidden="true"></i><span><strong>ParkShopping Canoas</strong><small>Av. Farroupilha, 4545</small></span><i class="nearby-point__arrow" data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+            <a class="nearby-point" href="https://www.google.com/maps/search/?api=1&query=Parque+Get%C3%BAlio+Vargas%2C+Rua+Dona+Rafaela%2C+700%2C+Canoas%2C+RS" target="_blank" rel="noopener noreferrer"><i data-lucide="trees" aria-hidden="true"></i><span><strong>Parque Getúlio Vargas</strong><small>Capão do Corvo</small></span><i class="nearby-point__arrow" data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+            <a class="nearby-point" href="https://www.google.com/maps/search/?api=1&query=Casa+das+Artes+Villa+Mimosa%2C+Av.+Guilherme+Schell%2C+6270%2C+Canoas%2C+RS" target="_blank" rel="noopener noreferrer"><i data-lucide="landmark" aria-hidden="true"></i><span><strong>Casa das Artes Villa Mimosa</strong><small>Av. Guilherme Schell, 6270</small></span><i class="nearby-point__arrow" data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+            <a class="nearby-point" href="https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+Santos+Dumont%2C+Rua+Teixeira+de+Freitas%2C+1%2C+Canoas%2C+RS" target="_blank" rel="noopener noreferrer"><i data-lucide="plane" aria-hidden="true"></i><span><strong>Praça do Avião</strong><small>Praça Santos Dumont</small></span><i class="nearby-point__arrow" data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" aria-labelledby="faq-title">
+        <div class="container faq__grid">
+          <div class="faq__intro reveal"><p class="eyebrow"><span></span> Dúvidas frequentes</p><h2 id="faq-title">Informações para organizar a sua estadia.</h2><p>Não encontrou o que procura? Fale diretamente com a equipe da pousada.</p><a class="text-link" href="#contato" data-contact-trigger aria-haspopup="dialog">Entrar em contato <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+          <div class="faq__list reveal reveal--delay">
+            <div class="faq-item is-open"><button class="faq-item__question" type="button" aria-expanded="true" aria-controls="faq-answer-1" id="faq-question-1"><span>Como consultar disponibilidade?</span><i data-lucide="plus" aria-hidden="true"></i></button><div class="faq-item__answer" id="faq-answer-1" role="region" aria-labelledby="faq-question-1"><p>Entre em contato diretamente pelo telefone <a href="tel:+555123917366">+55 51 2391-7366</a> ou pelo e-mail <a href="mailto:contato@pousadadotrabalhador.com">contato@pousadadotrabalhador.com</a>. Ou clique <a href="#contato" data-contact-trigger aria-haspopup="dialog"><b>aqui</b></a> para ver mais opções de contato.</p></div></div>
+            <div class="faq-item"><button class="faq-item__question" type="button" aria-expanded="false" aria-controls="faq-answer-2" id="faq-question-2"><span>Há estacionamento?</span><i data-lucide="plus" aria-hidden="true"></i></button><div class="faq-item__answer" id="faq-answer-2" role="region" aria-labelledby="faq-question-2" hidden><p>Sim. O estacionamento gratuito está entre as comodidades informadas da pousada.</p></div></div>
+            <div class="faq-item"><button class="faq-item__question" type="button" aria-expanded="false" aria-controls="faq-answer-3" id="faq-question-3"><span>A pousada possui Wi-Fi?</span><i data-lucide="plus" aria-hidden="true"></i></button><div class="faq-item__answer" id="faq-answer-3" role="region" aria-labelledby="faq-question-3" hidden><p>Sim. A pousada disponibiliza Wi-Fi gratuito aos hóspedes.</p></div></div>
+            <div class="faq-item"><button class="faq-item__question" type="button" aria-expanded="false" aria-controls="faq-answer-4" id="faq-question-4"><span>Qual é o endereço?</span><i data-lucide="plus" aria-hidden="true"></i></button><div class="faq-item__answer" id="faq-answer-4" role="region" aria-labelledby="faq-question-4" hidden><p>Av. Getúlio Vargas, 6291 — Canoas/RS.</p></div></div>
+            <div class="faq-item"><button class="faq-item__question" type="button" aria-expanded="false" aria-controls="faq-answer-5" id="faq-question-5"><span>Como entrar em contato?</span><i data-lucide="plus" aria-hidden="true"></i></button><div class="faq-item__answer" id="faq-answer-5" role="region" aria-labelledby="faq-question-5" hidden><p>Abra o botão “Entrar em contato” para escolher a forma de atendimento.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-cta" id="contato" aria-labelledby="contact-title">
+        <div class="container contact-cta__inner reveal">
+          <div><p class="eyebrow eyebrow--light"><span></span> Fale com a gente</p><h2 id="contact-title">Vamos cuidar dos detalhes da sua hospedagem?</h2><p>Consulte disponibilidade, acomodações e outras informações diretamente com a Pousada do Trabalhador.</p></div>
+          <div class="contact-cta__actions"><a class="button button--light" href="#contato" data-contact-trigger aria-haspopup="dialog"><i data-lucide="messages-square" aria-hidden="true"></i> Entrar em contato</a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__main">
+        <div class="footer-brand"><a class="brand brand--footer" href="#inicio" aria-label="Pousada do Trabalhador — início"><img class="brand__full-logo" src="assets/logos/footer-logo.png" alt="Pousada do Trabalhador" width="140" height="140" /></a><p>Hospedagem simples, prática e acolhedora em Canoas.</p></div>
+        <div class="footer-column"><h3>Navegação</h3><a href="#pousada">A pousada</a><a href="#acomodacoes">Acomodações</a><a href="#comodidades">Comodidades</a><a href="#localizacao">Localização</a></div>
+        <div class="footer-column"><h3>Contato</h3><a href="tel:+555123917366">+55 51 2391-7366</a><a href="mailto:contato@pousadadotrabalhador.com">contato@pousadadotrabalhador.com</a><span>Av. Getúlio Vargas, 6291<br />Canoas/RS</span></div>
+        <div class="footer-column footer-column--company"><h3>Dados institucionais</h3><span>Pousada do Trabalhador Canoas LTDA</span><span>CNPJ 50.324.545/0001-21</span></div>
+      </div>
+      <div class="container site-footer__bottom"><span>© 2026 Pousada do Trabalhador. Todos os direitos reservados.</span><a href="#inicio">Voltar ao início <i data-lucide="arrow-up" aria-hidden="true"></i></a></div>
+    </footer>
+  </body>
+</html>
