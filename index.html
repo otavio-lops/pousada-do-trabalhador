@@ -19,9 +19,23 @@
       content="Hospedagem simples, prática e acolhedora em Canoas."
     />
     <meta property="og:url" content="https://pousadadotrabalhador.com/" />
+    <meta property="og:site_name" content="Pousada do Trabalhador" />
+    <meta property="og:image" content="https://pousadadotrabalhador.com/assets/fotos/frente.png" />
+    <meta property="og:image:secure_url" content="https://pousadadotrabalhador.com/assets/fotos/frente.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1672" />
+    <meta property="og:image:height" content="941" />
+    <meta property="og:image:alt" content="Fachada da Pousada do Trabalhador em Canoas" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pousada do Trabalhador | Hospedagem em Canoas/RS" />
+    <meta name="twitter:description" content="Hospedagem simples, prática e acolhedora em Canoas." />
+    <meta name="twitter:image" content="https://pousadadotrabalhador.com/assets/fotos/frente.png" />
+    <meta name="twitter:image:alt" content="Fachada da Pousada do Trabalhador em Canoas" />
 
     <title>Pousada do Trabalhador | Hospedagem em Canoas/RS</title>
     <link rel="icon" href="assets/logos/transparent-gear.png" type="image/png" />
+    <link rel="preload" as="image" href="assets/fotos/frente.png" type="image/png" fetchpriority="high" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,11 +50,17 @@
       {
         "@context": "https://schema.org",
         "@type": "LodgingBusiness",
+        "@id": "https://pousadadotrabalhador.com/#lodging-business",
         "name": "Pousada do Trabalhador",
         "legalName": "Pousada do Trabalhador Canoas LTDA",
         "url": "https://pousadadotrabalhador.com/",
+        "mainEntityOfPage": "https://pousadadotrabalhador.com/",
+        "inLanguage": "pt-BR",
+        "image": "https://pousadadotrabalhador.com/assets/fotos/frente.png",
+        "logo": "https://pousadadotrabalhador.com/assets/logos/transparent-gear.png",
         "telephone": "+555123917366",
         "email": "contato@pousadadotrabalhador.com",
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Av.+Get%C3%BAlio+Vargas%2C+6291%2C+Canoas%2C+RS",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Av. Getúlio Vargas, 6291",
@@ -48,6 +68,70 @@
           "addressRegion": "RS",
           "addressCountry": "BR"
         }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://pousadadotrabalhador.com/#website",
+        "url": "https://pousadadotrabalhador.com/",
+        "name": "Pousada do Trabalhador",
+        "inLanguage": "pt-BR",
+        "publisher": { "@id": "https://pousadadotrabalhador.com/#lodging-business" }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://pousadadotrabalhador.com/#faq",
+        "url": "https://pousadadotrabalhador.com/#faq-title",
+        "inLanguage": "pt-BR",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Como consultar disponibilidade?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Entre em contato diretamente pelo telefone +55 51 2391-7366 ou pelo e-mail contato@pousadadotrabalhador.com. Ou clique aqui para ver mais opções de contato."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Há estacionamento?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. O estacionamento gratuito está entre as comodidades informadas da pousada."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "A pousada possui Wi-Fi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. A pousada disponibiliza Wi-Fi gratuito aos hóspedes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual é o endereço?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Av. Getúlio Vargas, 6291 — Canoas/RS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como entrar em contato?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Abra o botão “Entrar em contato” para escolher a forma de atendimento."
+            }
+          }
+        ]
       }
     </script>
   </head>
@@ -138,7 +222,7 @@
             </p>
             <div class="hero__actions">
               <a class="button button--primary" href="#contato" data-contact-trigger aria-haspopup="dialog">
-                <i data-lucide="phone" aria-hidden="true"></i> Ligar agora
+                <i data-lucide="phone" aria-hidden="true"></i> Entrar em contato
               </a>
               <a class="text-link" href="#pousada">Conhecer a pousada <i data-lucide="arrow-down-right" aria-hidden="true"></i></a>
             </div>
