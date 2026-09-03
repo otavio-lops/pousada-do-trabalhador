@@ -30,6 +30,28 @@
     link.addEventListener("click", () => setMenuState(false));
   });
 
+  document.querySelectorAll('a[href^="#"]:not([data-contact-trigger])').forEach((link) => {
+    link.addEventListener("click", (event) => {
+      const selector = link.getAttribute("href");
+      if (!selector || selector === "#") return;
+
+      let target;
+      try {
+        target = document.querySelector(selector);
+      } catch {
+        return;
+      }
+      if (!target) return;
+
+      event.preventDefault();
+      setMenuState(false);
+      const headerOffset = header?.getBoundingClientRect().height || 0;
+      const targetTop = Math.max(0, target.getBoundingClientRect().top + window.scrollY - headerOffset - 12);
+      const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.scrollTo({ top: targetTop, behavior: prefersReducedMotion ? "auto" : "smooth" });
+    });
+  });
+
   const isMobileDevice = () => Boolean(
     navigator.userAgentData?.mobile
       || /Android|iPhone|iPod|Windows Phone/i.test(navigator.userAgent)
